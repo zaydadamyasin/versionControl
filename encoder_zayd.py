@@ -5,13 +5,13 @@ def encode(password):
       encoded_password += str((int(digit) + 3) % 10)
   return encoded_password
 
-'''
+
 def decode(password):
   decoded_password = ''
   for digit in password:
       decoded_password += str((int(digit) - 3) % 10)
   return decoded_password
-'''
+
 
 def main():
   while True:
