@@ -27,8 +27,8 @@ def main():
       print("Your password has been encoded and stored!")
     elif option == 2:
       pass
-      # original_password = decode(encoded_password)
-      # print("The encoded password is " + encoded_password + ", and the original password is " + original_password + ".")
+      original_password = decode(encoded_password)
+      print("The encoded password is " + encoded_password + ", and the original password is " + original_password + ".")
     elif option == 3:
       break
 
